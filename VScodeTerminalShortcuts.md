@@ -2,6 +2,8 @@
 
 pwd                     → Show current directory
 
+code filename           → open a file
+
 ls                      → List files and folders
 
 cd FolderName           → Enter a folder
@@ -12,13 +14,13 @@ cd ../..                → Go back two folders
 
 mkdir FolderName        → Create a new folder
 
-touch file.cpp          → Create a new file (Git Bash/Linux)
+touch fileName          → Create a new file (Git Bash/Linux)
 
 cp source destination   → Copy a file
 
 mv oldName newName      → Move or rename a file
 
-rm file.cpp             → Delete a file
+rm fileName             → Delete a file
 
 rmdir FolderName        → Delete an empty folder
 
@@ -61,7 +63,7 @@ git status                                            → Check repository statu
 # Git Commit Commands
 
 
-git add file.cpp                                      → Stage a specific file
+git add fileName                                      → Stage a specific file
 
 git add .                                             → Stage all changes
 
