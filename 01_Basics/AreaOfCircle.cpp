@@ -1,11 +1,11 @@
 #include <iostream>
 using namespace std;
+int main () { 
 
-int main(){ 
-cout<< "Enter radius:";
     float radius;
-    cin>> radius;
-    float area=3.14*radius*radius;
-    cout<< "Area: "<< area;
-    return 0;
-}  
+    cout<<"Enter Radius = ";
+    cin >> radius;
+    float area = 3.14159*radius*radius;
+    cout<< "Area of Circle = "<< area;
+return 0;
+}

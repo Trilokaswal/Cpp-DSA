@@ -22,20 +22,52 @@
 
 // The character '0' has an ASCII value of 48, '1' is 49, '2' is 50,'3 is 51, and so on.
 
-
-
 #include <iostream>
 using namespace std;
-int main() {
+int main (){
 
-    char X = '+';
-    int ascii = (int)X;     // explicit type casting to convert char to int
     
-    // Convert char to its ASCII value
-    
-    cout << "ASCII '" << X << "' is: " << ascii << endl;
-    return 0;
-}
+// Converting char to its ASCII value using explicit type casting
 
-// Output:
-// ASCII '+' is: 43
+// 1st way
+
+// int main () {
+//     char ch = 'A';
+//     cout<< int(ch) << endl; // Output: 65 // Converting char to its ASCII value using explicit type casting
+
+// 2nd way
+
+//          int main() {
+//                  char x = '@';
+//                  int ascii = (int)x; // Convert char to its ASCII value //explicit type casting
+//                  cout << "ascii : " << ascii << endl; // Output: 64
+//                  return 0;        }
+
+
+// Converting char to its ASCII value using implicit type casting
+
+        //   int main() {
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+        //    char x = 'Z';
+        //    int ascii = x; // Convert char to its ASCII value using implicit type casting
+        //    cout << "ascii : " << ascii << endl; // Output: 90
+        //    return 0;     }
+
+
+// converting ASCII value to its corresponding char using explicit type casting
+
+        // int x = 74;
+        // cout << char(x) << endl; // Output: J
