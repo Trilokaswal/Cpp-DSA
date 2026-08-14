@@ -39,13 +39,15 @@ date                    → Display current date
 exit                    → Close the terminal
 
 
-
 # Git Configuration
 
+git user.email                                       → to see user email
 
-git config --global user.name "Your Name"            → Set Git username
+git config user.email "new_email@gmail.con"          → set new local Git email
 
-git config --global user.email "you@example.com"     → Set Git email
+git config --global user.name "Your Name"            → Set global Git username
+
+git config --global user.email "you@example.com"     → Set global Git email
 
 git config --global --list                           → View Git configuration
 
