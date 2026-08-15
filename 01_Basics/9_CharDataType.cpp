@@ -24,38 +24,61 @@
 
 // The character '0' has an ASCII value of 48, '1' is 49, '2' is 50,'3 is 51, and so on.
 
-#include <iostream>
-using namespace std;
-int main (){
-
-    
-// Converting char to its ASCII value using explicit type casting
-
-// 1st way
-
-// int main () {
-//     char ch = 'A';
-//     cout<< int(ch) << endl; // Output: 65 // Converting char to its ASCII value using explicit type casting
-
-// 2nd way
-
-//          int main() {
-//                  char x = '@';
-//                  int ascii = (int)x; // Convert char to its ASCII value //explicit type casting
-//                  cout << "ascii : " << ascii << endl; // Output: 64
-//                  return 0;        }
 
 
-// Converting char to its ASCII value using implicit type casting
+//  IMPLICIT AND EXPLICIT TYPECASTING
 
-        //   int main() {
-        //    char x = 'Z';
-        //    int ascii = x; // Convert char to its ASCII value using implicit type casting
-        //    cout << "ascii : " << ascii << endl; // Output: 90
-        //    return 0;     }
+// Typecasting means converting one data type into another data type.
 
+// 1. Implicit Typecasting
 
-// converting ASCII value to its corresponding char using explicit type casting
+// Compiler khud automatically ek data type ko doosre type mein convert karta hai.
 
-        // int x = 74;
-        // cout << char(x) << endl; // Output: J
+// Example:
+
+// int x = 10;
+// float y = x;
+
+// Yahan x ka type int hai, lekin y ka type float hai.
+
+// C++ automatically:
+// 10 (int) → 10.0 (float)
+
+// Isliye ise implicit conversion kehte hain.
+
+// 2. Explicit Typecasting
+
+// Hum khud compiler ko bolte hain ki type convert karo.
+
+// Example:
+
+// float x = 10.5;
+// int y = int(x);
+
+// Yahan humne explicitly int(x) likha hai.
+
+// So:
+// 10.5 (float) → 10 (int)
+
+// Decimal part remove ho gaya.
+
+// ASCII Example:
+
+// char ch = 'A';
+
+// cout << ch;       // A
+// cout << int(ch);  // 65
+
+// int(ch) explicit typecasting hai because humne khud conversion bola.
+
+// Whereas:
+
+// char ch = 'A';
+// int x = ch;
+
+// Yahan compiler automatically char → int kar raha hai, so this is implicit typecasting.
+
+// Remember:
+
+// Implicit = Compiler karta hai automatically.
+// Explicit = Programmer khud karta hai.
