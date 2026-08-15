@@ -10,9 +10,11 @@
 
 // Special characters like !, @, #, $, %, ^, &, *, (, ), etc.
 
-// In C++, characters are represented using the ASCII (American Standard Code for Information Interchange) encoding scheme.
+// In C++, characters are represented using the ASCII (American Standard Code for Information Interchange) 
+// encoding scheme.
 
-// Each character is assigned a unique integer value in the ASCII table, which allows computers to store and manipulate text data efficiently.
+// Each character is assigned a unique integer value in the ASCII table, 
+// which allows computers to store and manipulate text data efficiently.
 
 // The character 'A' has an ASCII value of 65, 'B' is 66, 'a' is 97, and so on.
 
@@ -47,20 +49,6 @@ int main (){
 // Converting char to its ASCII value using implicit type casting
 
         //   int main() {
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
         //    char x = 'Z';
         //    int ascii = x; // Convert char to its ASCII value using implicit type casting
         //    cout << "ascii : " << ascii << endl; // Output: 90
