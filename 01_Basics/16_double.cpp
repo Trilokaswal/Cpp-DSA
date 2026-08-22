@@ -11,7 +11,7 @@
 // float: It stores decimal values using less memory, 
 // usually 4 bytes, but provides lower precision of about 6–7 digits.
 
-// double: It stores decimal values using more memory, usually 8 bytes,
+// double: It stores decimal values using more memory, usually 8 bytes which means 64-bits
 // but provides higher precision of about 15–16 digits.
 
 // Difference:
@@ -31,8 +31,8 @@ using namespace std;
 
 int main () { 
   
-    double value1 = 25.0;
-    double value2 = 47.59;
+    double value1 = 25.39000000000009;
+    double value2 = 47.59000000000000;
     
     cout<< value1 + value2 << endl; // output: 72.59
     return 0;
