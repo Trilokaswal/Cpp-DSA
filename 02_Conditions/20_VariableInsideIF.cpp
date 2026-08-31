@@ -12,5 +12,5 @@ int main (){
     else cout << "Rohit";
 
     return 0; 
-// there are more ways also 
+// there are more ways also....
 }
