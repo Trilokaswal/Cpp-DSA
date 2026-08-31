@@ -11,5 +11,6 @@ int main (){
     if (a == 4)  cout << "Jitendra";
     else cout << "Rohit";
 
-    return 0;
+    return 0; 
+// there are more ways also 
 }
