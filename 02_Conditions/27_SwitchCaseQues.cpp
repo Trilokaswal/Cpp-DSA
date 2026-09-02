@@ -21,6 +21,7 @@ int main (){
         case 4:
             cout << "Thursday";
             break;
+            
         case 5:
             cout << "Friday";   
             break;
